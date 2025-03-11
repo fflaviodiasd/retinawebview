@@ -211,7 +211,7 @@ export function VideoFrameExtractor() {
           </div>
         )}
         <div className="relative mt-4">
-          <video ref={videoRef} style={{ display: "none" }} controls />
+          <video ref={videoRef} playsInline style={{ width: "1px", height: "1px", opacity: 0 }} />
           <canvas ref={canvasRef}  style={{ display: "none" }}   />
 
           <div className="mt-4 w-full bg-gray-200 rounded-full h-2">
